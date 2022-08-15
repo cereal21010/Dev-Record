@@ -62,6 +62,11 @@ git checkout -- <파일 이름>
 ```
 * stage(git add)에 추가되거나, 새로 생성하 파일은 그대로 남는다.
 
+- 로컬의 모든 변경 내용과 확정본을 포기하고 원격 저장소의 최신 이력을 가져오고,
+로컬 main 가지가 origin의 이력을 가리키도록 할 수 있다.
+```
+git reset --hard origin/master
+```
 
 
 
