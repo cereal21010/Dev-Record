@@ -14,3 +14,30 @@
 
 <br>
 
+## 예시
+![image](https://user-images.githubusercontent.com/57171304/185087382-50129268-dc93-4d13-b649-51595e621b7f.png)
+
+>### 기존 git log
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/57171304/185087484-352a0b29-ffa3-4646-8111-98bdb29233fa.png">
+<br>
+
+>### 기존 파일 내용
+<img width="366" alt="image" src="https://user-images.githubusercontent.com/57171304/185087747-33ce547b-421b-4a88-852b-43f5b5a152c2.png">
+<br>
+
+>### git reset 실행
+```
+$ git reset --hard HEAD~~  <-HEAD기준 2개 이전 커밋들 hard 옵션으로 삭제
+```
+<br>
+
+>### reset 실행 후 git log
+<img width="522" alt="image" src="https://user-images.githubusercontent.com/57171304/185089728-7df9e5ec-cad1-44c3-a48b-6c642e4d1bbb.png">
+<br>
+
+>### reset 실행 후 파일 내용
+<img width="365" alt="image" src="https://user-images.githubusercontent.com/57171304/185090303-74fbe950-eb52-432d-955e-93fb6c14ffd8.png">
+<br>
+
+## reset 실행 전 상태로 되돌리기
+- reset 전의 커밋은 'ORIG_HEAD' 라는 이름으로 참조할 수 있습니다.
