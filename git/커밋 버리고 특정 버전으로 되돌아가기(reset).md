@@ -27,8 +27,8 @@
 
 >### git reset 실행
 ```
-$ git reset --hard HEAD~~  <-HEAD기준 2개 이전 커밋들 hard 옵션으로 삭제
-```
+$ git reset --hard HEAD~~  <- HEAD기준 2개 이전 커밋들 hard 옵션으로 삭제
+``` 
 <br>
 
 >### reset 실행 후 git log
@@ -41,3 +41,9 @@ $ git reset --hard HEAD~~  <-HEAD기준 2개 이전 커밋들 hard 옵션으로 
 
 ## reset 실행 전 상태로 되돌리기
 - reset 전의 커밋은 'ORIG_HEAD' 라는 이름으로 참조할 수 있습니다.
+```
+$ git reset --hard ORIG_HEAD  <- reset 전의 커밋으로 되
+```
+
+
+
