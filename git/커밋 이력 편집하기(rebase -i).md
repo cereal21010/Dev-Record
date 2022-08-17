@@ -11,3 +11,5 @@
 
 
 ## 예시
+>### 커밋 통합하기  
+![image](https://user-images.githubusercontent.com/57171304/185102070-91be507b-cb01-4e3b-b72e-4635f497a0a9.png)
