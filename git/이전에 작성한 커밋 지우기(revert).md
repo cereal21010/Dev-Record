@@ -24,7 +24,7 @@
 
 > ### git revert 실행
 ```
-git revert HEAD  <- 가장 최근 커밋 내용을 지우는 커밋 추가
+$ git revert HEAD  <- 가장 최근 커밋 내용을 지우는 커밋 추가
 ```
 <br>
 
