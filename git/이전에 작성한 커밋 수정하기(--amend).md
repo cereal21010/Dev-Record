@@ -19,8 +19,8 @@
     
 #### commit --amend 실행
 ```
-git add sample.txt
-git commit --amend
+$ git add sample.txt
+$ git commit --amend
 ```
   
 #### commit --amend를 적용 후 git log
