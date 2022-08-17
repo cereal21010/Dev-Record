@@ -11,18 +11,17 @@
 ![image](https://user-images.githubusercontent.com/57171304/185010079-2dd9c70b-e18a-4368-9bf8-a96682eedff7.png)
 ###### **아래의 콘솔 이미지의 커밋 고유번호가 위의 이미지와 다른건 무시*  
   
-  
 #### 기존 git log
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/57171304/185010758-988ee7ef-3da8-4bbd-b4e7-c04718ad5082.png">
   
-  
 #### 파일 수정
 <img width="368" alt="image" src="https://user-images.githubusercontent.com/57171304/185013520-a2aaeeb5-47c8-4c66-928e-dc23fb4a61fa.png">
-  
-  
+    
 #### commit --amend 실행
-<img width="621" alt="image" src="https://user-images.githubusercontent.com/57171304/185013627-3365d00b-d67d-4845-b1b9-bb21e737cebc.png">
-  
+```
+git add sample.txt
+git commit --amend
+```
   
 #### commit --amend를 적용 후 git log
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/57171304/185013745-d0c05cab-c440-40d0-9cb7-8ae4cb60d336.png">
