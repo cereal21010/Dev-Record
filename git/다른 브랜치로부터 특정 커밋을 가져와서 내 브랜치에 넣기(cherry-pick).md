@@ -23,5 +23,5 @@ $ git cherry-pick 99daed2  <- 커밋id 값, git log 명령어로 확인 가능
 - 커밋 내용에 따라 충돌이 발생할 수 있다. 충돌이 생길 경우 충돌 부분을 수정한 후 커밋을 진행하면 된다.
 ```
 $ git add sample.txt
-$ git commit
+$ git commit <- 기본적으로 복사한 커밋의 메세지 입력되 있고 명령어 입력 후 수정할 수 
 ```
