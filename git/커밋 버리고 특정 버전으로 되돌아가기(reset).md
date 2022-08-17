@@ -27,7 +27,7 @@
 
 >### git reset 실행
 ```
-$ git reset --hard HEAD~~  <- HEAD기준 2개 이전 커밋들 hard 옵션으로 삭제
+$ git reset --hard HEAD~~  <- HEAD기준 2개 이전 커밋들을 hard 옵션으로 삭제
 ``` 
 <br>
 
