@@ -30,3 +30,6 @@ $ git commit --amend
 
 ![image](https://user-images.githubusercontent.com/57171304/185013880-81d2e693-9d6e-4ec7-af9b-acd1702ccec6.png)
 
+<br>
+  
+[출처] https://backlog.com/git-tutorial/kr/  
