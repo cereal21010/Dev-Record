@@ -13,8 +13,24 @@
 ## 예시
 >### 커밋 통합하기  
 ![image](https://user-images.githubusercontent.com/57171304/185102070-91be507b-cb01-4e3b-b72e-4635f497a0a9.png)
+<br>
+
+>### rebase -i 실행
+```
+$ git rebase -i HEAD~~
+```
+- 명령어를 실행하면 텍스트 에디터가 열리고 HEAD에서 'HEAD~~'까지의 커밋이 아래 이미지와 같이 표시된다.
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/57171304/185270665-c5dff1d2-a0fc-4ef2-b99b-ce0883d33ffb.png">
+
+- 두 번째 줄의 'pick'문자를 **squash**로 변경하고 저장/종료합니다.
+<br>
+
+>### rebase -i 적용 후 git log
+<img width="522" alt="image" src="https://user-images.githubusercontent.com/57171304/185271077-556195ca-8863-4312-a064-430b02167ac3.png">
+
+###### *마지막 두개의 커밋이 하나로 통합된걸 확인할 수 있다.
 
 
-
+<br>
 
 [출처] https://backlog.com/git-tutorial/kr/
