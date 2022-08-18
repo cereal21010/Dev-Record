@@ -34,3 +34,6 @@ $ git revert HEAD  <- 가장 최근 커밋 내용을 지우는 커밋 추가
 
 ![image](https://user-images.githubusercontent.com/57171304/185055595-65c0fc14-ce17-4432-b93e-a9de01afb8e0.png)
 
+<br>
+
+[출처] https://backlog.com/git-tutorial/kr/
