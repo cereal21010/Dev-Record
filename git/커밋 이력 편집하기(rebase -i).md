@@ -46,7 +46,16 @@ $ git rebase -i HEAD~~
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/57171304/185278589-e30258dd-5a79-453d-b6ab-0da488ffa57c.png">
 <br>
 
-- 수정할 커밋(commit 설명 추가)의 내용을 수정하고 
+- 수정할 커밋(commit 설명 추가)의 내용(파일)을 수정하고 아래 명령어로 변경한 내용을 저장한다.
+```
+$ git add sample.txt
+$ git commit --amend
+```
+- 변경한 내용을 저장 후 커밋 작업이 종료됐다고 알려줘야한다. --continue 옵션을 지정하여 rebase 를 실행한다.
+```
+$ git rebase --continue
+```
+###### *이 때, 커밋에서 충돌이 발생할 수 있다. 그럴 때는 충돌 부분을 수정 후 add와 rebase --continue를 실행하면 된다. 커밋은 필요 없으므로 실행하지 않는다.<br>만약 도중에 rebase 작업을 중지하려면 rebase --abort 옵션을 지정해 실행한다.
 
 <br>
 
